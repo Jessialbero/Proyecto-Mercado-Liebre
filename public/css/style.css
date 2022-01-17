@@ -1,0 +1,30 @@
+
+
+header{
+    background-color: #EAC926;
+    width: 100%;
+    display: block;
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#form {
+    position: relative;  
+    margin: 2em auto;
+    padding: 2em;  
+}
+
+#cuotas{
+    text-align: center;
+}
+
+.burger-menu{
+    margin: 1em auto;
+    text-align: center;
+    background-color: #1259c3;
+    width: fit-content;
+    padding: 0.5em;
+    border-radius: 5px;
+    color: #fff
+      }

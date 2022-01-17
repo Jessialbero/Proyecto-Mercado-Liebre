@@ -5,26 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+
 </head>
 <body>
     <header>
-        <img src="/images/logo-mercado-liebre.svg" width="600"> 
+        <img src="/images/logo-mercado-liebre.svg" width="300"> 
         <br></br>   
-        <span>Aquí está la Barra de búsqueda</span>
-        <div>Comprá en cuotas y sin tarjeta de crédito</div>
-        <div>Barra de navegación 
-            <ul type=disc>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Tiendas Oficiales</a></li>
-                <li><a href="#">Ayuda</a></li>
-                    <br></br>    
-                <li><a href="#">Creá tu cuenta</a></li>
-                <li><a href="#">Ingresá</a></li>
-                <li><a href="#">Mis Compras</a></li> 
-            </ul>
+
+        <div id="form" role="search">
+            <input type="text" placeholder="Buscar productos, marcas">     
+            <i class="fas fa-search"></i>
+   
+        </div>
+
+        <div id="cuotas"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito </div>
+        <div>
+            <ul style="list-style-type:none;" class="lista">
+                <li>Ofertas</li>
+                <li>Tiendas</li>
+                <li>Ayuda</li>
+              </ul> 
+
+              <ul style="list-style-type:none;" class="lista">
+                <li>Creá tu cuenta</li><i class="far fa-id-card" ></i>
+                <li>Ingresá</li><i class="fas fa-sign-in-alt"></i>
+                <li>Mis Compras</li><i class="fas fa-shopping-basket"></i> 
+            </ul>     
+                         
+            <div class="burger-menu"> <i class="fas fa-bars"></i>
+
+            </div>
+
             <img src="/images\img-home-banner.jpg" width="600"> 
 
-        </div>
+       </div>
     </header>
     <br></br>
 
